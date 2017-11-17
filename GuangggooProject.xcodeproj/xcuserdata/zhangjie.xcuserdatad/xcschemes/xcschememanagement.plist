@@ -6,12 +6,24 @@
 	<dict>
 		<key>GuangggooProject.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>GuanggoWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2F5EFF4B1F8E174400763F68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2FC9A1DA1F6D2668008A0F7B</key>
 		<dict>
 			<key>primary</key>

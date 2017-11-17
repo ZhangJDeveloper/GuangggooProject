@@ -7,17 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5EFF631F8E1DA200763F68 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5EFF4D1F8E174400763F68 /* NotificationCenter.framework */; };
+		2F5EFF671F8E1DA200763F68 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5EFF661F8E1DA200763F68 /* TodayViewController.m */; };
+		2F5EFF6E1F8E1DA200763F68 /* GuanggoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2F5EFF621F8E1DA200763F68 /* GuanggoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2FC9A1E01F6D2668008A0F7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A1DF1F6D2668008A0F7B /* main.m */; };
 		2FC9A1E31F6D2668008A0F7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A1E21F6D2668008A0F7B /* AppDelegate.m */; };
-		2FC9A1E61F6D2668008A0F7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A1E51F6D2668008A0F7B /* ViewController.m */; };
 		2FC9A1E91F6D2668008A0F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC9A1E71F6D2668008A0F7B /* Main.storyboard */; };
 		2FC9A1EB1F6D2668008A0F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC9A1EA1F6D2668008A0F7B /* Assets.xcassets */; };
 		2FC9A1EE1F6D2668008A0F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC9A1EC1F6D2668008A0F7B /* LaunchScreen.storyboard */; };
 		2FC9A1F91F6D2669008A0F7B /* GuangggooProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A1F81F6D2669008A0F7B /* GuangggooProjectTests.m */; };
 		2FC9A2041F6D2669008A0F7B /* GuangggooProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A2031F6D2669008A0F7B /* GuangggooProjectUITests.m */; };
+		2FC9A2161F6F7869008A0F7B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A2151F6F7869008A0F7B /* HomeViewController.m */; };
+		2FC9A2191F6F787B008A0F7B /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A2181F6F787B008A0F7B /* MineViewController.m */; };
+		2FC9A21E1F6FA4E8008A0F7B /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A21D1F6FA4E8008A0F7B /* DataManager.m */; };
+		2FC9A2241F6FC368008A0F7B /* HomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A2231F6FC368008A0F7B /* HomeDataModel.m */; };
+		2FC9A2271F70F737008A0F7B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A2261F70F737008A0F7B /* WebViewController.m */; };
+		2FC9A22D1F711259008A0F7B /* MBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9A22C1F711259008A0F7B /* MBManager.m */; };
+		7EA86D9CA4C437F6DEECFE2D /* libPods-GuangggooProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EED5181007D9CF4EDBA9AD2 /* libPods-GuangggooProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2F5EFF6C1F8E1DA200763F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC9A1D31F6D2668008A0F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F5EFF611F8E1DA200763F68;
+			remoteInfo = GuanggoWidget;
+		};
 		2FC9A1F51F6D2669008A0F7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2FC9A1D31F6D2668008A0F7B /* Project object */;
@@ -34,13 +50,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2F5EFF5D1F8E174500763F68 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2F5EFF6E1F8E1DA200763F68 /* GuanggoWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2F5EFF4D1F8E174400763F68 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2F5EFF621F8E1DA200763F68 /* GuanggoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GuanggoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5EFF651F8E1DA200763F68 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		2F5EFF661F8E1DA200763F68 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		2F5EFF6B1F8E1DA200763F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5EFF721F8E274700763F68 /* GuanggoWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuanggoWidget.entitlements; sourceTree = "<group>"; };
+		2F5EFF731F8E275A00763F68 /* GuangggooProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuangggooProject.entitlements; sourceTree = "<group>"; };
 		2FC9A1DB1F6D2668008A0F7B /* GuangggooProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuangggooProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC9A1DF1F6D2668008A0F7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2FC9A1E11F6D2668008A0F7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2FC9A1E21F6D2668008A0F7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2FC9A1E41F6D2668008A0F7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2FC9A1E51F6D2668008A0F7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2FC9A1E81F6D2668008A0F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FC9A1EA1F6D2668008A0F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FC9A1ED1F6D2668008A0F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,13 +86,37 @@
 		2FC9A1FF1F6D2669008A0F7B /* GuangggooProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuangggooProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC9A2031F6D2669008A0F7B /* GuangggooProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuangggooProjectUITests.m; sourceTree = "<group>"; };
 		2FC9A2051F6D2669008A0F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC9A2141F6F7869008A0F7B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2FC9A2151F6F7869008A0F7B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2FC9A2171F6F787B008A0F7B /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		2FC9A2181F6F787B008A0F7B /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		2FC9A21C1F6FA4E8008A0F7B /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		2FC9A21D1F6FA4E8008A0F7B /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		2FC9A2221F6FC368008A0F7B /* HomeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataModel.h; sourceTree = "<group>"; };
+		2FC9A2231F6FC368008A0F7B /* HomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataModel.m; sourceTree = "<group>"; };
+		2FC9A2251F70F737008A0F7B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		2FC9A2261F70F737008A0F7B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		2FC9A22B1F711259008A0F7B /* MBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBManager.h; sourceTree = "<group>"; };
+		2FC9A22C1F711259008A0F7B /* MBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBManager.m; sourceTree = "<group>"; };
+		6C3A3C667B5A6152D7F058E4 /* Pods-GuangggooProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuangggooProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuangggooProject/Pods-GuangggooProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7EED5181007D9CF4EDBA9AD2 /* libPods-GuangggooProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuangggooProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8293883667C442FF0AA146 /* Pods-GuangggooProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuangggooProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuangggooProject/Pods-GuangggooProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F5EFF5F1F8E1DA200763F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5EFF631F8E1DA200763F68 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FC9A1D81F6D2668008A0F7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA86D9CA4C437F6DEECFE2D /* libPods-GuangggooProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +137,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F5EFF641F8E1DA200763F68 /* GuanggoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2F5EFF721F8E274700763F68 /* GuanggoWidget.entitlements */,
+				2F5EFF651F8E1DA200763F68 /* TodayViewController.h */,
+				2F5EFF661F8E1DA200763F68 /* TodayViewController.m */,
+				2F5EFF6B1F8E1DA200763F68 /* Info.plist */,
+			);
+			path = GuanggoWidget;
+			sourceTree = "<group>";
+		};
 		2FC9A1D21F6D2668008A0F7B = {
 			isa = PBXGroup;
 			children = (
 				2FC9A1DD1F6D2668008A0F7B /* GuangggooProject */,
 				2FC9A1F71F6D2669008A0F7B /* GuangggooProjectTests */,
 				2FC9A2021F6D2669008A0F7B /* GuangggooProjectUITests */,
+				2F5EFF641F8E1DA200763F68 /* GuanggoWidget */,
 				2FC9A1DC1F6D2668008A0F7B /* Products */,
+				9303A73601959791591A3030 /* Pods */,
+				9C1CA0A792CA98364FC100B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +167,7 @@
 				2FC9A1DB1F6D2668008A0F7B /* GuangggooProject.app */,
 				2FC9A1F41F6D2669008A0F7B /* GuangggooProjectTests.xctest */,
 				2FC9A1FF1F6D2669008A0F7B /* GuangggooProjectUITests.xctest */,
+				2F5EFF621F8E1DA200763F68 /* GuanggoWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +175,14 @@
 		2FC9A1DD1F6D2668008A0F7B /* GuangggooProject */ = {
 			isa = PBXGroup;
 			children = (
-				2FC9A1E11F6D2668008A0F7B /* AppDelegate.h */,
-				2FC9A1E21F6D2668008A0F7B /* AppDelegate.m */,
-				2FC9A1E41F6D2668008A0F7B /* ViewController.h */,
-				2FC9A1E51F6D2668008A0F7B /* ViewController.m */,
-				2FC9A1E71F6D2668008A0F7B /* Main.storyboard */,
+				2F5EFF731F8E275A00763F68 /* GuangggooProject.entitlements */,
+				2FC9A2131F6F670D008A0F7B /* Mine */,
+				2FC9A2111F6F66EC008A0F7B /* Home */,
+				2FC9A2121F6F6701008A0F7B /* Other */,
 				2FC9A1EA1F6D2668008A0F7B /* Assets.xcassets */,
 				2FC9A1EC1F6D2668008A0F7B /* LaunchScreen.storyboard */,
-				2FC9A1EF1F6D2668008A0F7B /* Info.plist */,
+				2FC9A21B1F6FA4C1008A0F7B /* Utils */,
+				2FC9A21A1F6F9B38008A0F7B /* Vendors */,
 				2FC9A1DE1F6D2668008A0F7B /* Supporting Files */,
 			);
 			path = GuangggooProject;
@@ -140,20 +214,135 @@
 			path = GuangggooProjectUITests;
 			sourceTree = "<group>";
 		};
+		2FC9A2111F6F66EC008A0F7B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2FC9A2211F6FC348008A0F7B /* Model */,
+				2FC9A2201F6FC344008A0F7B /* View */,
+				2FC9A21F1F6FC32D008A0F7B /* Controllers */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		2FC9A2121F6F6701008A0F7B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2FC9A1E71F6D2668008A0F7B /* Main.storyboard */,
+				2FC9A1E11F6D2668008A0F7B /* AppDelegate.h */,
+				2FC9A1E21F6D2668008A0F7B /* AppDelegate.m */,
+				2FC9A1EF1F6D2668008A0F7B /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		2FC9A2131F6F670D008A0F7B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2FC9A2171F6F787B008A0F7B /* MineViewController.h */,
+				2FC9A2181F6F787B008A0F7B /* MineViewController.m */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		2FC9A21A1F6F9B38008A0F7B /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		2FC9A21B1F6FA4C1008A0F7B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2FC9A22B1F711259008A0F7B /* MBManager.h */,
+				2FC9A22C1F711259008A0F7B /* MBManager.m */,
+				2FC9A21C1F6FA4E8008A0F7B /* DataManager.h */,
+				2FC9A21D1F6FA4E8008A0F7B /* DataManager.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		2FC9A21F1F6FC32D008A0F7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FC9A2141F6F7869008A0F7B /* HomeViewController.h */,
+				2FC9A2151F6F7869008A0F7B /* HomeViewController.m */,
+				2FC9A2251F70F737008A0F7B /* WebViewController.h */,
+				2FC9A2261F70F737008A0F7B /* WebViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2FC9A2201F6FC344008A0F7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2FC9A2211F6FC348008A0F7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FC9A2221F6FC368008A0F7B /* HomeDataModel.h */,
+				2FC9A2231F6FC368008A0F7B /* HomeDataModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9303A73601959791591A3030 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C3A3C667B5A6152D7F058E4 /* Pods-GuangggooProject.debug.xcconfig */,
+				EA8293883667C442FF0AA146 /* Pods-GuangggooProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C1CA0A792CA98364FC100B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EED5181007D9CF4EDBA9AD2 /* libPods-GuangggooProject.a */,
+				2F5EFF4D1F8E174400763F68 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FC9A1DA1F6D2668008A0F7B /* GuangggooProject */ = {
+		2F5EFF611F8E1DA200763F68 /* GuanggoWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FC9A2081F6D2669008A0F7B /* Build configuration list for PBXNativeTarget "GuangggooProject" */;
+			buildConfigurationList = 2F5EFF6F1F8E1DA200763F68 /* Build configuration list for PBXNativeTarget "GuanggoWidget" */;
 			buildPhases = (
-				2FC9A1D71F6D2668008A0F7B /* Sources */,
-				2FC9A1D81F6D2668008A0F7B /* Frameworks */,
-				2FC9A1D91F6D2668008A0F7B /* Resources */,
+				2F5EFF5E1F8E1DA200763F68 /* Sources */,
+				2F5EFF5F1F8E1DA200763F68 /* Frameworks */,
+				2F5EFF601F8E1DA200763F68 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = GuanggoWidget;
+			productName = GuanggoWidget;
+			productReference = 2F5EFF621F8E1DA200763F68 /* GuanggoWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2FC9A1DA1F6D2668008A0F7B /* GuangggooProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC9A2081F6D2669008A0F7B /* Build configuration list for PBXNativeTarget "GuangggooProject" */;
+			buildPhases = (
+				5ED017FC99C2499511738994 /* [CP] Check Pods Manifest.lock */,
+				2FC9A1D71F6D2668008A0F7B /* Sources */,
+				2FC9A1D81F6D2668008A0F7B /* Frameworks */,
+				2FC9A1D91F6D2668008A0F7B /* Resources */,
+				BF1BC9356F605C95EFAA381C /* [CP] Embed Pods Frameworks */,
+				90DAC3FDF7AECDAE6D3C7499 /* [CP] Copy Pods Resources */,
+				2F5EFF5D1F8E174500763F68 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5EFF6D1F8E1DA200763F68 /* PBXTargetDependency */,
 			);
 			name = GuangggooProject;
 			productName = GuangggooProject;
@@ -205,10 +394,25 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = nuoyuan;
 				TargetAttributes = {
+					2F5EFF611F8E1DA200763F68 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = PLWRYFMN46;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
 					2FC9A1DA1F6D2668008A0F7B = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = PLWRYFMN46;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					2FC9A1F31F6D2669008A0F7B = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -240,11 +444,19 @@
 				2FC9A1DA1F6D2668008A0F7B /* GuangggooProject */,
 				2FC9A1F31F6D2669008A0F7B /* GuangggooProjectTests */,
 				2FC9A1FE1F6D2669008A0F7B /* GuangggooProjectUITests */,
+				2F5EFF611F8E1DA200763F68 /* GuanggoWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2F5EFF601F8E1DA200763F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FC9A1D91F6D2668008A0F7B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,14 +483,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5ED017FC99C2499511738994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90DAC3FDF7AECDAE6D3C7499 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuangggooProject/Pods-GuangggooProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1BC9356F605C95EFAA381C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuangggooProject/Pods-GuangggooProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2F5EFF5E1F8E1DA200763F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5EFF671F8E1DA200763F68 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FC9A1D71F6D2668008A0F7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC9A1E61F6D2668008A0F7B /* ViewController.m in Sources */,
+				2FC9A22D1F711259008A0F7B /* MBManager.m in Sources */,
 				2FC9A1E31F6D2668008A0F7B /* AppDelegate.m in Sources */,
+				2FC9A2271F70F737008A0F7B /* WebViewController.m in Sources */,
+				2FC9A21E1F6FA4E8008A0F7B /* DataManager.m in Sources */,
+				2FC9A2241F6FC368008A0F7B /* HomeDataModel.m in Sources */,
 				2FC9A1E01F6D2668008A0F7B /* main.m in Sources */,
+				2FC9A2161F6F7869008A0F7B /* HomeViewController.m in Sources */,
+				2FC9A2191F6F787B008A0F7B /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +574,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2F5EFF6D1F8E1DA200763F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F5EFF611F8E1DA200763F68 /* GuanggoWidget */;
+			targetProxy = 2F5EFF6C1F8E1DA200763F68 /* PBXContainerItemProxy */;
+		};
 		2FC9A1F61F6D2669008A0F7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2FC9A1DA1F6D2668008A0F7B /* GuangggooProject */;
@@ -333,6 +611,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2F5EFF701F8E1DA200763F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PLWRYFMN46;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GuanggoWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuoyuan.GuangggooProject.GuanggoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2F5EFF711F8E1DA200763F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PLWRYFMN46;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GuanggoWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuoyuan.GuangggooProject.GuanggoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		2FC9A2061F6D2669008A0F7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,8 +753,10 @@
 		};
 		2FC9A2091F6D2669008A0F7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3A3C667B5A6152D7F058E4 /* Pods-GuangggooProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = PLWRYFMN46;
 				INFOPLIST_FILE = GuangggooProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,8 +767,10 @@
 		};
 		2FC9A20A1F6D2669008A0F7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8293883667C442FF0AA146 /* Pods-GuangggooProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = PLWRYFMN46;
 				INFOPLIST_FILE = GuangggooProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -500,6 +832,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F5EFF6F1F8E1DA200763F68 /* Build configuration list for PBXNativeTarget "GuanggoWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5EFF701F8E1DA200763F68 /* Debug */,
+				2F5EFF711F8E1DA200763F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2FC9A1D61F6D2668008A0F7B /* Build configuration list for PBXProject "GuangggooProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -516,6 +857,7 @@
 				2FC9A20A1F6D2669008A0F7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FC9A20B1F6D2669008A0F7B /* Build configuration list for PBXNativeTarget "GuangggooProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +866,7 @@
 				2FC9A20D1F6D2669008A0F7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FC9A20E1F6D2669008A0F7B /* Build configuration list for PBXNativeTarget "GuangggooProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +875,7 @@
 				2FC9A2101F6D2669008A0F7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

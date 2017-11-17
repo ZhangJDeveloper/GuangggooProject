@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - HYBUnicodeReadable (1.3)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - Ono (1.2.2)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - TFHpple (2.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - HYBUnicodeReadable (~> 1.1)
+  - MBProgressHUD
+  - MJRefresh
+  - Ono
+  - SDWebImage
+  - TFHpple
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HYBUnicodeReadable: ebffd6ee9a9eeb0e2a7788e45d3efe169340db45
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Ono: 80b1c686777d3f6d5d5ce6fcac8a74afef4ca197
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
+
+PODFILE CHECKSUM: d9956d96f8c8fa0cb984224a3caf41364c0c4003
+
+COCOAPODS: 1.1.1
